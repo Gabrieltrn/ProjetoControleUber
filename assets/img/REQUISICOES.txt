@@ -1,0 +1,40 @@
+entrada de dados
+
+datalancamento
+cadastromotorista
+modelocarro
+categoriamotorista
+qtdcombustivelconsumido
+valorfaturamentofinaldia
+kmrodadodia
+gastocombustivel
+outrosgastos
+_______________________________________________
+
+saida de dados
+
+valorfaturamentofinaldia
+kmrodado
+gastocombustivel 
+outros gastos
+lucro liquido
+valorkmrodado
+
+_______________________________________________
+
+Dados cadastromotorista
+
+nome
+email
+senha
+
+
+
+
+
+
+
+
+
+
+
