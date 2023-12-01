@@ -1,0 +1,3 @@
+propriedade Required (faz que um campo se torne obrigatorio)
+propriedade Required minLength ="numero desejado"(faz que um campo se torne obrigatorio o minimo de caracteres)
+propriedade Required maxLength ="numero desejado"(faz que um campo se torne obrigatorio o maximo de caracteres)

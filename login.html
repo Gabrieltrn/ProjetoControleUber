@@ -6,20 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <link rel="stylesheet" href="assets/css/loginStyle.css" />
+    <script src="assets/models/modelsUsuario.js"defer></script>
+    
   </head>
   <body>
     <div class="container">
-      <div class="form__login">
-        <h1>Faça o seu Login</h1>
-        <input class="form" type="text" placeholder="Digite seu Email" />
-        <input class="form" type="password" placeholder="Digite sua Senha" />
-        <button class="botao">Entrar</button>
+      
+      <form id="my__form" class="my__form">
+        <div class="form__login">
+        
+          <h1>Faça o seu Login</h1>
+          
+          <input class="form" type="email" id="email" placeholder="Digite seu Email" required />
+          <input class="form" type="password" id="password" placeholder="Digite sua Senha" required minlength="6" />
+          
+          <input  id="submit__button" class="button" type="submit" value="Enviar">
+          
+        </div>
+  
+        <div class="registration">
+          <a href="cadastro.html">Cadastre-se</a>
+          <a href="esqueciasenha.html">Esqueci minha Senha</a>
+        </div>
       </div>
-
-      <div class="registration">
-        <a href="cadastro.html">Cadastre-se</a>
-        <a href="esqueciasenha.html">Esqueci minha Senha</a>
-      </div>
-    </div>
+      </form>
+      
   </body>
 </html>

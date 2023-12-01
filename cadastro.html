@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro-Motorista</title>
     <link rel="stylesheet" href="assets/css/cadastroStyle.css">
+    <script src="assets/models/modelsUsuario.js" defer></script>
+    <script src="assets/javascript/cadastro.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <div class="form__cadastro">
-          <h1>Faça o seu Cadastro</h1>
-          <input class="form" type="text" placeholder="Digite seu Nome" />
-          <input class="form" type="text" placeholder="Digite sua Categoria" />
-          <input class="form" type="text" placeholder="Digite o Modelo do seu Carro" />
-          <input class="form" type="text" placeholder="Digite seu Email" />
-          <input class="form" type="password" placeholder="Digite sua Senha" />
-          <button class="botao">Cadastrar</button>
+
+        <form class="form__cadastro__usuario" id="form__cadastro__usuario">
+            <div class="form__cadastro">
+                <h1>Faça o seu Cadastro</h1>
+                
+                <input class="form" type="text" id="name" placeholder="Digite seu Nome" required />
+                <input class="form" type="text" id="categoriaCarro" placeholder="Digite sua Categoria" required />
+                <input class="form" type="text" id="modeloCarro" placeholder="Digite o Modelo do seu Carro" required />
+                <input class="form" type="email" id="email" placeholder="Digite seu Email" required />
+                <input class="form" type="password" id="password" placeholder="Digite sua Senha" required minlength="6"/>
+                
+                <input  id="submit__button" class="button" type="submit" value="Enviar">
+        </form>
+        
 </body>
 </html>

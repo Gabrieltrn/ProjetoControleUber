@@ -8,25 +8,52 @@
     
 </head>
 <body>
-    <form class="form" id="form">
-        <div class="form__control">
-            
-                       
-            <label for="qtdCombustivel">QTD Consumo Combustivel</label>
-            <input class="input" type="text" id="qtdCombustivel" placeholder="Digite o seu consumo">
-            
-            <label>Faturamento Dia</label>
-            <input class="input" type="text" placeholder="Digite seu Ganho">
-            
-            <label>Kms Rodados</label>
-            <input class="input" type="text" placeholder="Digite o quanto kms andou">
 
-            <label>Outros Gastos</label>
-            <input class="input" type="text" placeholder="Outros Gastos">
+    <div class="container">
 
-            
+        
         </div>
-    </form>
+
+        <form class="form" id="form">
+            <div class="form__control success">
+                
+                           
+                <label for="qtdCombustivel">QTD Consumo Combustivel</label>
+                <input class="input" type="text" id="qtdCombustivel" placeholder="Digite o seu consumo">
+                <i><img src="assets/img/success-icon.svg" alt=""></i>
+                <i><img src="assets/img/error-icon.svg" alt=""></i>
+                <small>Error message</small>
+    
+                
+                <label for="faturamentoDia">Faturamento Dia</label>
+                <input class="input" type="text" id="faturamentoDia" placeholder="Digite seu Ganho">
+                <i><img src="assets/img/success-icon.svg" alt=""></i>
+                <i><img src="assets/img/error-icon.svg" alt=""></i>
+                <small>Error message</small>
+    
+                
+                <label for="kmsRodados">Kms Rodados</label>
+                <input class="input" type="text" id="kmsRodados" placeholder="Digite o quanto kms andou">
+                <i><img class="img-sucess" src="assets/img/success-icon.svg" alt=""></i>
+                <i><img class="img-error" src="assets/img/error-icon.svg" alt=""></i>
+                <small>Error message</small>
+    
+    
+                <label for="outrosGastos">Outros Gastos</label>
+                <input class="input" type="text" id="outrosGastos" placeholder="Outros Gastos">
+                <i><img src="assets/img/success-icon.svg" alt=""></i>
+                <i><img src="assets/img/error-icon.svg" alt=""></i>
+                <small>Error message</small>
+    
+    
+                <button class="botao">Cadastrar</button>
+            </div>
+    
+            
+        </form>
+    </div>
+
+    
      
 </body>
 </html>
